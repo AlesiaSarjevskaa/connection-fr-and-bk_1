@@ -16,7 +16,7 @@ exports.getCatById = async (req, res, next) => {
   const data = await new Cats().getCat(req.params.id);
   if (data) {
     return res.status(200).send({
-      msg: "Cat found!",
+      msg: "Cat found",
       payload: data,
     });
   }
