@@ -1,0 +1,12 @@
+client -> src -> models -> Cars.js
+                 pages -> Car -> Create -> index.jsx
+                              -> ShowAll -> index.jsx, CarLink.jsx
+                              -> ShowOne -> index.jsx  
+                              -> Update -> index.jsx    
+                       -> Home -> Index.jsx
+                       -> AppRouter.jsx
+server -> controllers -> cars.js
+       -> dto         -> Cars.js
+       -> models      -> cars.js
+       -> routes      -> cars.js
+       -> app.js
